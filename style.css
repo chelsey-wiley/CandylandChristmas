@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*rgba(2, 64, 104, 1.0)
+rgba(0, 118, 150, 1.0)
+rgba(57, 168, 168, 1.0)
+rgba(234, 242, 251, 1.0)
+rgba(203, 0, 0, 1.0)
+font-family: 'Mountains of Christmas', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
+
+body {
+	background-image: url('background.gif');
+	background-repeat: no-repeat;
+	background-size: 1700px 800px;
+	font-family: 'Mountains of Christmas', cursive;
+}
+header {
+	position:relative;
+	height: 115px;
+	border: 1px solid orange;
+	}
+
+footer {
+	position: fixed;
+	right: 0px;
+	bottom:0px;
+	left: 0px;
+	margin: 0 auto;
+	clear:both;
+	padding: 20px;
+}
+
+.main-letter{
+  font-size: 6em;
+  background-color:rgba(2, 64, 104, 1.0);
+  color:rgba(234, 242, 251, 1.0);
+  border: 5px solid rgba(57, 168, 168, 1.0);
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 300px;
+  padding: 1.5em;
+
+}
+
+.back-arrow {
+	background-image: url('Arrows.png');
+	background-position: -100px -60px;
+	/*border: 1px solid black;*/
+	float:left;
+	padding: 10px;
+	height: 20px;
+	width: 20px;
+}
+
+.back-arrow:hover{
+	background-position: -390px -60px;
+
+}
+
+.continue-arrow {
+	background-image: url('Arrows.png');
+	background-position: -100px -100px;
+	float:right;
+	padding: 10px;
+	height: 20px;
+	width: 20px;
+}
+.continue-arrow:hover{
+	background-position: -290px -100px;
+
+}
+
+
+.h-wishlist {
+	color: rgba(2, 64, 104, 1.0);
+}
+
+.h-wishlist h2{
+	font-size: 5em;
+	float:right;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+
+.h-wishlist p{
+	font-size: 2em;
+	float:left;
+	margin-left: 30px;
+	margin-top: 60px;
+}
+
+.toy-box{
+	  background-color:rgba(2, 64, 104, 1.0);
+	  color:rgba(234, 242, 251, 1.0);
+	  border: 5px solid rgba(57, 168, 168, 1.0);
+	  border-radius: 5px;
+	  margin: 0 auto;
+	  text-align: center;
+	  max-width: 800px;
+	  padding: 1.5em;
+	overflow: auto;
+}
+
+.box-a{
+	float:left;
+	width: 33%;
+	outline: 3px solid rgba(234, 242, 251, 1.0);
+}
+
+.box-b{
+	float:left;
+	width: 33%;
+	outline: 3px solid rgba(234, 242, 251, 1.0);
+	overflow: auto;
+}
+.box-c{
+	float:left;
+	width: 33%;
+	outline: 3px solid rgba(234, 242, 251, 1.0);
+}
+
+.ul li{
+	max-height: 100%;
+	padding: 3px;
+	margin: 3px;
+	outline: 3px solid rgba(234, 242, 251, 1.0);
+}
+
+.ul li img{
+	height: 170px;
+	object-fit: contain;
+}
+
+.note {
+	font-size: 1.5em;
+	float: right;
+	margin-right: 15px;
+	margin-top: 10px;
+
+}
