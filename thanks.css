@@ -1,0 +1,55 @@
+.thanks{
+  font-size: 2.5em;
+  margin: 50px auto;
+  max-width: 80%;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.thanks a:link{
+  text-decoration: none;
+    color:rgba(203, 0, 0, 1.0);
+}
+
+.thanks a:visited{
+    color:rgba(203, 0, 0, 1.0);
+}
+
+.thanks a:hover{
+  color:rgba(62, 142, 72, 1.0);
+}
+
+.send-again {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+.send-again button {
+	font-family: 'Mountains of Christmas', cursive;
+	background-color: rgba(2, 64, 104, 1.0);
+	color: rgba(234, 242, 251, 1.0);
+  font-size: 2.5em;
+	height: 100px;
+	padding: 20px;
+	margin: 20px;
+	border-color: rgba(234, 242, 251, 1.0);
+	border-radius: 10px;
+  }
+
+.info{
+  color: rgba(2, 64, 104, 1.0);
+}
+
+.info a:link{
+  text-decoration: none;
+    color:rgba(203, 0, 0, 1.0);
+}
+
+.info a:visited{
+    color:rgba(203, 0, 0, 1.0);
+}
+
+.info a:hover{
+  color:rgba(62, 142, 72, 1.0);
+}
