@@ -23,5 +23,5 @@ console.log('no clicked')
 
 var noMessage =
 document.querySelector('.confirm');
-noMessage.innerHTML = '<p id="nope">I want to <a href="wishlist.html">go back</a> and change my list.</p>'
+noMessage.innerHTML = '<p id="nope">I want to <a href="wishlist.html">go back</a> and change my list.</p><p id="nope">I want to <a href="index.html">start over</a></p>'
 });
