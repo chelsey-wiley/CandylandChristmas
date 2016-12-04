@@ -52,6 +52,9 @@ rgba(0, 118, 150, 1.0)
 rgba(57, 168, 168, 1.0)
 rgba(234, 242, 251, 1.0)
 rgba(203, 0, 0, 1.0)
+rgba(62, 142, 72, 1.0)
+
+
 font-family: 'Mountains of Christmas', cursive;
 font-family: 'Open Sans', sans-serif;
 */
@@ -185,4 +188,46 @@ footer {
 	margin-right: 15px;
 	margin-top: 10px;
 
+}
+
+.check-mark {
+	background-image: url('check.gif');
+	background-repeat: no-repeat;
+	object-fit: contain;
+}
+
+.confirm {
+	font-size: 60px;
+	margin: 0 auto;
+	max-width: 40%;
+	line-height: 1.2em;
+	text-align: center;
+}
+
+.confirm button {
+		font-family: 'Mountains of Christmas', cursive;
+			background-color: rgba(2, 64, 104, 1.0);
+		color: rgba(234, 242, 251, 1.0);
+		font-size: 1em;
+		height: 125px;
+		width: 125px;
+		padding: 10px;
+		margin: 30px;
+		border-color: rgba(234, 242, 251, 1.0);
+		border-radius: 10px;
+}
+
+.yes{
+	float: left;
+}
+.yes:hover {
+	background-color: rgba(62, 142, 72, 1.0) ;
+}
+
+.no {
+	float:right;
+}
+
+.no:hover{
+	background-color: rgba(203, 0, 0, 1.0);
 }
