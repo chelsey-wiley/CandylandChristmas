@@ -1,0 +1,73 @@
+h-wishlist {
+	color: rgba(2, 64, 104, 1.0);
+}
+
+.h-wishlist h2{
+	font-size: 5em;
+	float:right;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+
+.h-wishlist p{
+	font-size: 2em;
+	float:left;
+	margin-left: 30px;
+	margin-top: 60px;
+}
+
+.toy-box{
+	  background-color:rgba(2, 64, 104, 1.0);
+	  color:rgba(234, 242, 251, 1.0);
+	  border: 5px solid rgba(57, 168, 168, 1.0);
+	  border-radius: 5px;
+	  margin: 0 auto;
+	  text-align: center;
+	  max-width: 800px;
+	  padding: 1.5em;
+	overflow: auto;
+}
+
+.box-a{
+	float:left;
+	width: 33%;
+	outline: 3px solid rgba(234, 242, 251, 1.0);
+}
+
+.box-b{
+	float:left;
+	width: 33%;
+	outline: 3px solid rgba(234, 242, 251, 1.0);
+	overflow: auto;
+}
+.box-c{
+	float:left;
+	width: 33%;
+	outline: 3px solid rgba(234, 242, 251, 1.0);
+}
+
+.ul li{
+	max-height: 100%;
+	padding: 3px;
+	margin: 3px;
+	outline: 3px solid rgba(234, 242, 251, 1.0);
+}
+
+.ul li img{
+	height: 170px;
+	object-fit: contain;
+}
+
+.note {
+	font-size: 1.5em;
+	float: right;
+	margin-right: 15px;
+	margin-top: 10px;
+
+}
+
+.check-mark {
+	background-image: url('check.gif');
+	background-repeat: no-repeat;
+	object-fit: contain;
+}
