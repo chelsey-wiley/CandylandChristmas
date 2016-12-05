@@ -25,3 +25,4 @@ Kids will be able to pick 3 things to add to their Christmas Wish List. After pi
 ##  Solutions:
 * Specificity issues on inline content added through js -- opted to use an id instead of a class name.
 * Wishlist.html imgs not sizing consistently -- used object-fit: contain.
+* selectQueryAll bug on Wishlist page -- redetermined the event listener on the grid div. 
