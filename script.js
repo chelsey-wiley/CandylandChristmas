@@ -4,16 +4,18 @@ console.log('grid', grid);
 grid.addEventListener('click', function(evt){
 console.log('clicked', evt.target);
 
-var checkMark =
-document.querySelector('.check-mark');
+if (evt.target.tagName === "IMG"){
+  function changeImage(theImage){
+var theImage= document.images.src = "check.gif";
 
-if (evt.target !==null) {
-  console.log('removed image', evt.target);
+  }
 
-// var theCheck =
-// document.querySelector('.check-mark');
-// theCheck.innerHTML = '<img src="check.gif" alt ="check mark">'
-//
-// theCheck.classList.remove('checkMark');
-}
+
+
+
+
+
+   }
+
+
 });

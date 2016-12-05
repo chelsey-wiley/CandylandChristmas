@@ -64,4 +64,6 @@ h-wishlist {
 }
 
 .check-mark{
+	height: 170px;
+	object-fit: contain;
 }
