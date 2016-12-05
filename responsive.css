@@ -122,6 +122,9 @@ margin: 0 auto;
 .sending-page footer{
   position: static;
 }
+.wishlist-page footer {
+  position: static;
+}
 
 #sending {
   background-size: 300px;
