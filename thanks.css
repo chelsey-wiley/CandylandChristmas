@@ -37,6 +37,10 @@
 	border-radius: 10px;
   }
 
+.note {
+  float: right;
+  width:80%;
+}
 .info{
   color: rgba(2, 64, 104, 1.0);
 }

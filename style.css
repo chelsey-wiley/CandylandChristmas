@@ -71,6 +71,7 @@ header {
 	}
 
 footer {
+	color: rgba(2, 64, 104, 1.0);
 	position: fixed;
 	right: 0px;
 	bottom:0px;
@@ -118,5 +119,13 @@ footer {
 }
 .continue-arrow:hover{
 	background-position: -290px -100px;
+
+}
+
+.note {
+	font-size: 1.5em;
+	float: right;
+	margin-right: 15px;
+	margin-top: 10px;
 
 }

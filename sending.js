@@ -9,7 +9,7 @@ console.log('yes clicked')
 
 var yesMessage =
 document.querySelector('.confirm');
-yesMessage.innerHTML = '<p class="sending">sending...</p>'
+yesMessage.innerHTML = '<p id="sending">sending...</p>'
 
 setTimeout(function() {
   yesMessage.innerHTML='<p id="sent">Your message has been sent to Santa.<a href="message.html">Click here</a> to see Santa&#39;s reply. </p>';
