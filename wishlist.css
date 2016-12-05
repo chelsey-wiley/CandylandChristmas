@@ -31,19 +31,16 @@ h-wishlist {
 .box-a{
 	float:left;
 	width: 33%;
-	outline: 3px solid rgba(234, 242, 251, 1.0);
 }
 
 .box-b{
 	float:left;
 	width: 33%;
-	outline: 3px solid rgba(234, 242, 251, 1.0);
 	overflow: auto;
 }
 .box-c{
 	float:left;
 	width: 33%;
-	outline: 3px solid rgba(234, 242, 251, 1.0);
 }
 
 .ul li{
@@ -66,8 +63,5 @@ h-wishlist {
 
 }
 
-.check-mark {
-	background-image: url('check.gif');
-	background-repeat: no-repeat;
-	object-fit: contain;
+.check-mark{
 }
