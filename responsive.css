@@ -60,6 +60,7 @@
   }
   .thanks-page footer{
     overflow: auto;
+    position: relative;
   }
 
   .thanks-page .note {
@@ -112,7 +113,14 @@ margin: 0 auto;
 }
 
 .wishlist-page footer {
-  position: fixed;
+  position: static;
+}
+
+.index-page footer{
+  position: static;
+}
+.sending-page footer{
+  position: static;
 }
 
 #sending {
