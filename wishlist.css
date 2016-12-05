@@ -37,6 +37,7 @@
 .box-a{
 	float:left;
 	width: 33%;
+	overflow:auto;
 }
 
 .box-b{

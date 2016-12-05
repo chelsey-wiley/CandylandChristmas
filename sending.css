@@ -1,6 +1,7 @@
 .sending-page body{
 	margin: 0 auto;
 }
+
 .confirm {
 	font-size: 60px;
 	margin: 0 auto;
@@ -8,6 +9,7 @@
 	width: 400px;
 	line-height: 1.2em;
 	text-align: center;
+	color: rgba(2, 64, 104, 1.0);
 }
 
 .confirm button {
@@ -40,6 +42,8 @@
 
 #sending {
 background-image: url('dancing-deer.gif');
+background-repeat: no-repeat;
+color:rgba(2, 64, 104, 1.0);
 height: 450px;
 width: 435px;
 float: left;
@@ -53,7 +57,7 @@ text-align: center;
 	margin: 0 auto;
 	background-color: rgba(2, 64, 104, 1.0);
 	border: 3px solid rgba(62, 142, 72, 1.0);
-	color:rgba(234, 242, 251, 1.0)
+	color:rgba(234, 242, 251, 1.0);
 	padding: 10px;
 }
 #sent a:link{
